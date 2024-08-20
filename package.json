@@ -1,0 +1,25 @@
+{
+    "name": "fxmanifest-snippet",
+    "displayName": "FXManifest Snippet",
+    "description": "A visual studio code extension for fivem based of lm-development working mehtods",
+    "version": "1.0.0",
+    "publisher": "Zweetstreep",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "lua",
+                "path": "./src/fxmanifest.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Arootsy/vsc-fxmanifest"
+    }
+}

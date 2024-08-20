@@ -1,0 +1,21 @@
+{
+    "fxmanifest": {
+        "prefix": "fxmanifest",
+        "body": [
+            "fx_version \"adamant\"",
+            "game \"gta5\"",
+            "use_fxv2_oal \"yes\"",
+            "lua54 \"yes\"",
+            "",
+            "name \"${1:name}\"",
+            "author \"${2:author}\"",
+            "version \"1.0.0\"",
+            "",
+            "client_scripts { \"src/client/*.lua\" }",
+            "server_scripts { \"src/server/*.lua\", \"@oxmysql/lib/MySQL.lua\", \"Shared/*.lua\" }",
+            "shared_scripts { \"@es_extended/imports.lua\", \"@ox_lib/init.lua\" }"
+        ],
+        "description": "Inserts fxmanifest for FiveM",
+        "scope": "file"
+    }
+}
