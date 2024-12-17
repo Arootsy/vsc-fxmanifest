@@ -1,7 +1,7 @@
 {
     "name": "fxmanifest-snippet",
     "displayName": "FXManifest Snippet",
-    "description": "A visual studio code extension for fivem based of lm-development working methods",
+    "description": "Are you tired of typing new manifests for FiveM? Here's the solution! Download this extension, type fxmanifest, and boom. You've created an fxmanifest.lua within seconds!",
     "version": "1.0.3",
     "publisher": "Zweetstreep",
     "icon": "images/icon.png",
