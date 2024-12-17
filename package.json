@@ -1,7 +1,7 @@
 {
     "name": "fxmanifest-snippet",
     "displayName": "FXManifest Snippet",
-    "description": "A visual studio code extension for fivem based of lm-development working mehtods",
+    "description": "A visual studio code extension for fivem based of lm-development working methods",
     "version": "1.0.0",
     "publisher": "Zweetstreep",
     "engines": {
