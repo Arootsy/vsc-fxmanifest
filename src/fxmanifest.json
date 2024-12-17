@@ -11,9 +11,9 @@
             "author \"${2:author}\"",
             "version \"1.0.0\"",
             "",
-            "client_scripts { \"client/*.lua\" }",
-            "server_scripts { \"server/*.lua\", \"@oxmysql/lib/MySQL.lua\", \"shared/*.lua\" }",
-            "shared_scripts { \"@es_extended/imports.lua\", \"@ox_lib/init.lua\" }"
+            "client_scripts { \"client/**/*.lua\" }",
+            "server_scripts { \"server/**/*.lua\", \"@oxmysql/lib/MySQL.lua\" }",
+            "shared_scripts { \"@es_extended/imports.lua\", \"@ox_lib/init.lua\", \"data/**/*.lua"\ }"
         ],
         "description": "Inserts fxmanifest for FiveM",
         "scope": "file"
