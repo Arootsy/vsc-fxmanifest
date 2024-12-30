@@ -13,9 +13,15 @@
             "",
             "client_scripts { \"client/**/*.lua\" }",
             "server_scripts { \"server/**/*.lua\", \"@oxmysql/lib/MySQL.lua\" }",
-            "shared_scripts { \"@es_extended/imports.lua\", \"@ox_lib/init.lua\", \"data/**/*.lua\" }"
+            "shared_scripts {",
+            "    \"${3:@es_extended/imports.lua}\",",
+            "    \"${4:@ox_lib/init.lua}\",",
+            "    \"data/**/*.lua\"",
+            "}",
+            "${5:webui_enabled ? `files { 'web/**/*.*' }` : ''}",
+            "${5:webui_enabled ? `ui_page 'web/index.html'` : ''}"
         ],
-        "description": "Inserts fxmanifest for FiveM",
+        "description": "Inserts fxmanifest for FiveM with optional WebUI support",
         "scope": "file"
     }
 }
